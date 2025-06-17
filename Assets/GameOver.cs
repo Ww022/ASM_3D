@@ -4,7 +4,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GameOver : MonoBehaviour
 {
-    public void LoadMainMenu()
+    public void RetryGame()
+    {
+        SceneManager.LoadScene("Game");
+    }
+
+    public void ReturnToMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
     }
