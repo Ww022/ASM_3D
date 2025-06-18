@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.37f1 (340ba89e4c23) revision 3410856'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16068 MB
+OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 24280 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Unity\2022.3.37f1\Editor\Unity.exe
+D:\Unity\2022.3.37f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker5
 -projectPath
-C:/HThuan/ASM_3D
+C:/Users/GIGA/Documents/GitHub/ASM_3D
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-50837
-Successfully changed project path to: C:/HThuan/ASM_3D
-C:/HThuan/ASM_3D
+63340
+Successfully changed project path to: C:/Users/GIGA/Documents/GitHub/ASM_3D
+C:/Users/GIGA/Documents/GitHub/ASM_3D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,65 +49,66 @@ C:/HThuan/ASM_3D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25544] Host "[IP] 192.168.97.5 [Port] 0 [Flags] 2 [Guid] 2733628852 [EditorId] 2733628852 [Version] 1048832 [Id] WindowsEditor(7,Thuan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24480] Host "[IP] 172.16.72.73 [Port] 0 [Flags] 2 [Guid] 1026365326 [EditorId] 1026365326 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0O8M5U9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [25544] Host "[IP] 192.168.97.5 [Port] 0 [Flags] 2 [Guid] 2733628852 [EditorId] 2733628852 [Version] 1048832 [Id] WindowsEditor(7,Thuan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24480] Host "[IP] 172.16.72.73 [Port] 0 [Flags] 2 [Guid] 1026365326 [EditorId] 1026365326 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0O8M5U9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 12.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.37f1 (340ba89e4c23)
-[Subsystems] Discovering subsystems at path C:/Unity/2022.3.37f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/HThuan/ASM_3D/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/2022.3.37f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/GIGA/Documents/GitHub/ASM_3D/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2050 (ID=0x25a9)
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
     Vendor:   NVIDIA
-    VRAM:     3965 MB
-    Driver:   32.0.15.6641
+    VRAM:     3964 MB
+    Driver:   32.0.15.7652
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
 Initialize mono
-Mono path[0] = 'C:/Unity/2022.3.37f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Unity/2022.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Unity/2022.3.37f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Mono path[0] = 'D:/Unity/2022.3.37f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2022.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2022.3.37f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Unity/2022.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005038 seconds.
-- Loaded All Assemblies, in  0.264 seconds
+Register platform support module: D:/Unity/2022.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002286 seconds.
+- Loaded All Assemblies, in  0.285 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.193 seconds
-Domain Reload Profiling: 456ms
-	BeginReloadAssembly (85ms)
+- Finished resetting the current domain, in  0.230 seconds
+Domain Reload Profiling: 515ms
+	BeginReloadAssembly (92ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (104ms)
-		LoadAssemblies (83ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (118ms)
+		LoadAssemblies (91ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (102ms)
-			TypeCache.Refresh (101ms)
-				TypeCache.ScanAssembly (92ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (103ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (194ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (230ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (152ms)
+		SetupLoadedEditorAssemblies (177ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (103ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
+			ProcessInitializeOnLoadAttributes (121ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,747 +116,67 @@ Domain Reload Profiling: 456ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.574 seconds
-Refreshing native plugins compatible for Editor in 2.61 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.518 seconds
+Refreshing native plugins compatible for Editor in 2.44 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.424 seconds
-Domain Reload Profiling: 997ms
-	BeginReloadAssembly (108ms)
+- Finished resetting the current domain, in  0.440 seconds
+Domain Reload Profiling: 956ms
+	BeginReloadAssembly (117ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (16ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (401ms)
-		LoadAssemblies (331ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (330ms)
+		LoadAssemblies (249ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (132ms)
-			TypeCache.Refresh (117ms)
-				TypeCache.ScanAssembly (103ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (425ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (116ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (440ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (314ms)
+		SetupLoadedEditorAssemblies (324ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (44ms)
-			ProcessInitializeOnLoadAttributes (241ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (253ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 2.71 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 6.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3163 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (57.7 KB). Loaded Objects now: 3648.
-Memory consumption went from 134.0 MB to 134.0 MB.
-Total: 2.496100 ms (FindLiveObjects: 0.172900 ms CreateObjectMapping: 0.067700 ms MarkObjects: 2.145400 ms  DeleteObjects: 0.108600 ms)
+Unloading 3235 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (58.1 KB). Loaded Objects now: 3721.
+Memory consumption went from 140.5 MB to 140.4 MB.
+Total: 4.800500 ms (FindLiveObjects: 0.444700 ms CreateObjectMapping: 0.262700 ms MarkObjects: 3.852400 ms  DeleteObjects: 0.238600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/Noise.cs: c940f23b709c2d9c55d09846f002af43 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/LodDisable.cs: 95e8b3757c05b69f183c9d998498a8db -> 
-  custom:scripting/monoscript/fileName/MapMagicEditor.cs: 4d93aa5e2e472ee6e62cab9fa11837ed -> 
-  custom:scripting/monoscript/fileName/VignetteModel.cs: ab6733272f937ac0155aab47b4a8e58e -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/EyeAdaptationModel.cs: 5bcc92c7d981d480ed07d6af7dd1a959 -> 
-  custom:scripting/monoscript/fileName/DictTuple.cs: bd9b03fedf47069fb35d83319d7bb848 -> 
-  custom:scripting/monoscript/fileName/PostProcessingModelEditorAttribute.cs: 84467b1ef2082fe26f00bdedc34db836 -> 
-  custom:scripting/monoscript/fileName/ReflectionUtils.cs: 14b4c7d2cdf78d9b158d00fb2c3c24b2 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/ExampleWheelController.cs: 9600d370c57ff0da5766666ba4365a29 -> 
-  custom:scripting/monoscript/fileName/GetSetAttribute.cs: b786c1938e0c0f5ecaf463807c2d7653 -> 
-  custom:scripting/monoscript/fileName/FxStyles.cs: 82e974921467cb55809ecad82f38f7ca -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/PostProcessingContext.cs: be8a0bc1565c6324b1fd40a33f66279b -> 
-  custom:scripting/monoscript/fileName/MapMagic.cs: 1ce712114d0e7d8051d48d8534d7e0ca -> 
-  custom:scripting/monoscript/fileName/Erosion.cs: 19baf7430709efa5139159d2d8de2758 -> 
-  custom:scripting/monoscript/fileName/PostProcessingInspector.cs: b617eaa0b6e3e752eaf9e9a89203dc82 -> 
-  custom:scripting/monoscript/fileName/AntialiasingModelEditor.cs: 0f2b80733b1449af72ed38ee469e2a30 -> 
-  custom:scripting/monoscript/fileName/InstantUpdater.cs: ecf06d24658b7ff6e288ed19df5e6ba6 -> 
-  custom:scripting/monoscript/fileName/EyeAdaptationComponent.cs: 0cb2aaf8cdc20c0baee2205168cbc73c -> 
-  custom:scripting/monoscript/fileName/FxaaComponent.cs: 9d1fd3efb92e1fef6fd176ee45003f08 -> 
-  custom:scripting/monoscript/fileName/CustomSerialization.cs: dbf92c9f651dc9ae9bf1564465de353a -> 
-  custom:scripting/monoscript/fileName/ArrayTools.cs: b28b0bd3ff1ce91819cf101c80d52a30 -> 
-  custom:scripting/monoscript/fileName/GeneratingLabel.cs: 3971cf9c983d2ce89401175e7218bc23 -> 
-  custom:scripting/monoscript/fileName/DitheringModel.cs: fa99c50231ddc7ca26b5d6c9a68b4b31 -> 
-  custom:scripting/monoscript/fileName/PopupMenu.cs: 1836e0a3e79758726ab1779f476c9efa -> 
-  custom:scripting/monoscript/fileName/LegacyGenerators.cs: b496f1d5d2b55b857a1631b6f30d99a5 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/monoscript/fileName/ObjectGenerators.cs: 3d645ac083e8211286cb8092c2e6d326 -> 
-  custom:scripting/monoscript/fileName/TrackballAttribute.cs: f1962deba67196a6cd6b7953be1caf36 -> 
-  custom:scripting/monoscript/fileName/PostProcessingProfile.cs: e94a21971fab43a541218a4f91e0403c -> 
-  custom:scripting/monoscript/fileName/BuiltinDebugViewsModel.cs: 4a09809f2c0ed6cca27229b06ce1d289 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/RenderTextureFactory.cs: b11bc916a1a88ed67d986ee69a536511 -> 
-  custom:scripting/monoscript/fileName/FogModelEditor.cs: 64b75506b78e4411272a1d25aff5dcfd -> 
-  custom:scripting/monoscript/fileName/ColliderChecker.cs: ab4735a6c890b39137bde0f81c531ae3 -> 
-  custom:scripting/monoscript/fileName/EyeAdaptationModelEditor.cs: ee1343b3ceaceb2c63bf272baf871cbd -> 
-  custom:scripting/monoscript/fileName/DefaultPostFxModelEditor.cs: e4be4b1d308934dee3a6a91920dc1b3d -> 
-  custom:scripting/monoscript/fileName/PostProcessingFactory.cs: f4e35cbabcf5e0add8e963bb8ab175b2 -> 
-  custom:scripting/monoscript/fileName/Random.cs: ac2a67d5abb546ac65c3ef2944cf610d -> 
-  custom:scripting/monoscript/fileName/CharController_Motor.cs: 95ad6a9e9f41b77ac8821bbc7a22986e -> 
-  custom:scripting/monoscript/fileName/SpatialHash.cs: 5615169738575b10f9b3dc8267ce5dbc -> 
-  custom:scripting/monoscript/fileName/DepthOfFieldModel.cs: ab243c09a4b44fd7a53f73051db01cbc -> 
-  custom:scripting/monoscript/fileName/FPSDisplay.cs: 4de2b1268e0d108618b876b31a439b05 -> 
-  custom:scripting/monoscript/fileName/ColorGradingModel.cs: d1c2ef15f5e9e4868052777d51361b40 -> 
-  custom:scripting/monoscript/fileName/ScreenSpaceReflectionModel.cs: 507d9c80d381478e1c14f5bfe34012ae -> 
-  custom:scripting/monoscript/fileName/OutputGenerators.cs: 6feaa790f619d02bda360ef52f9a3d8b -> 
-  custom:scripting/monoscript/fileName/Matrix2.cs: 353c48a6c941c0c1dcee7848b70b449e -> 
-  custom:scripting/monoscript/fileName/TrackballGroupAttribute.cs: 6d071733b141a3fb3360b110560ed1cc -> 
-  custom:scripting/monoscript/fileName/DitheringModelEditor.cs: 98ce08c54d480e2032b7e03104c8332a -> 
-  custom:scripting/monoscript/fileName/WorldShifter.cs: cd3376c93c4689c345c598a0d4850005 -> 
-  custom:scripting/monoscript/fileName/Chunk.cs: c0f2f1a2773edc51ccb12c57fe492881 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/Extensions.cs: f57a70d491aedffc9aa98e6ba0abdf61 -> 
-  custom:scripting/monoscript/fileName/CharController.cs: 6f763a035ea7014242f18a23a9ff7dd4 -> 
-  custom:scripting/monoscript/fileName/ObjectPool.cs: d2f9fcd577260cb08ef3283c02f83a82 -> 
-  custom:scripting/monoscript/fileName/Layout.cs: 220ef068b223fe2fabb3c2962c08912c -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/BloomComponent.cs: 755f611bb4d32a54d162192a9fc6dd86 -> 
-  custom:scripting/monoscript/fileName/MotionBlurComponent.cs: 6cf5a99eefa473d803af3e64f841a0a6 -> 
-  custom:scripting/monoscript/fileName/WaterFloat.cs: 7ac8cb1106d215ea46d43dade9dd92c7 -> 
-  custom:scripting/monoscript/fileName/Curve.cs: bd33c5a00da792bf3de10500fb596344 -> 
-  custom:scripting/monoscript/fileName/BuiltinDebugViewsComponent.cs: 1b8215a7f6eae55c3fc6a97379498db3 -> 
-  custom:scripting/monoscript/fileName/GeneratorsAsset.cs: b01e7e7e3f91ae783d5aca863c1b0701 -> 
-  custom:scripting/monoscript/fileName/MotionBlurModelEditor.cs: 214d77ab75c222685eecaec8c6aed3b0 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/ChromaticAberrationEditor.cs: 4b6bc01a6288a606d1a3fe94f621633b -> 
-  custom:scripting/monoscript/fileName/MapMagicWindow.cs: c09d4d892771e16784b8c886e533b7ed -> 
-  custom:scripting/monoscript/fileName/AmbientOcclusionModel.cs: ac26bcd19cab8c88e9b65cb75ee1c356 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/VoxelandOutputs.cs: 39a0f167c943007d0177bff4390976c2 -> 
-  custom:scripting/monoscript/fileName/GuiController.cs: ce9ac38a8604dfa985443a8359c0de06 -> 
-  custom:scripting/monoscript/fileName/DisableRenderer.cs: 9cd9383a8381a51854f8fab592706848 -> 
-  custom:scripting/monoscript/fileName/AmbientOcclusionComponent.cs: ae5a7089fb97a5a97a8f11138ce7c9d2 -> 
-  custom:scripting/monoscript/fileName/GraphicsUtils.cs: f7df21c2acb52bb931f99c0a424b6be0 -> 
-  custom:scripting/monoscript/fileName/DepthOfFieldComponent.cs: b0afd8f8844e3e4017df6130c14d0dfc -> 
-  custom:scripting/monoscript/fileName/ColorGradingModelEditor.cs: d8393f813d799206976f65da1ab781ef -> 
-  custom:scripting/monoscript/fileName/ColorGradingCurve.cs: e1e989893ee31e7801923212f0468312 -> 
-  custom:scripting/monoscript/fileName/MoveSun.cs: 5da054fd1c718f6000bf927582cd25a4 -> 
-  custom:scripting/monoscript/fileName/GeneratorsAssetEditor.cs: 131ce17f69d222baef6dbf36c443878f -> 
-  custom:scripting/monoscript/fileName/AntialiasingModel.cs: 325b0130eaada61513aeac7b8c97a9d7 -> 
-  custom:scripting/monoscript/fileName/ChromaticAberrationModel.cs: 3f166f1ecbc6f39ed2f6b10cbc5b4ba4 -> 
-  custom:scripting/monoscript/fileName/ChunkGrid.cs: 4ff36c17bdde6034a3f4452fab314f60 -> 
-  custom:scripting/monoscript/fileName/AmbientOcclusionModelEditor.cs: 99a92cb6d65b3a11adad7b285256ee66 -> 
-  custom:scripting/monoscript/fileName/TaaComponent.cs: 7c343e97072a6712c3a2b01e75fdb7fa -> 
-  custom:scripting/monoscript/fileName/ParadeMonitor.cs: cae69c77ac3a6bd03788e390b0793dce -> 
-  custom:scripting/monoscript/fileName/BloomModelEditor.cs: 82667d6cbb2e9deab73f43bddd4cb3ad -> 
-  custom:scripting/monoscript/fileName/CameraController.cs: 7fc8110aac094a008f1cfebf3aa75e8e -> 
-  custom:scripting/monoscript/fileName/VegetationStudioOutput.cs: 533350ee1eb2dda6c19efcd0bd568868 -> 
-  custom:scripting/monoscript/fileName/HistogramMonitor.cs: 89c185ea097a2554de07760bc4248c43 -> 
-  custom:scripting/monoscript/fileName/CharRover.cs: 089dcc3d4c21d37bb4ec53592efa2bea -> 
-  custom:scripting/monoscript/fileName/PostProcessingBehaviourEditor.cs: 066ae7bf767a73228aa8d9e772743d81 -> 
-  custom:scripting/monoscript/fileName/InstantUpdaterEditor.cs: 7322fb8f340a309b522e36b8ee4c53ce -> 
-  custom:scripting/monoscript/fileName/PostProcessingModel.cs: 2f64caba6afa59bc78865f13b6f9065d -> 
-  custom:scripting/monoscript/fileName/PreviewWindow.cs: a4239be48c929bde5db5645d2187ae2a -> 
-  custom:scripting/monoscript/fileName/EditorGUIHelper.cs: 4a11466b474c4ddf8b0e969391a97509 -> 
-  custom:scripting/monoscript/fileName/DepthOfFieldModelEditor.cs: c9db63f1a070d3e8ad359080de3aa855 -> 
-  custom:scripting/monoscript/fileName/ChromaticAberrationComponent.cs: cda95994b71ba23d0c0f0fe0f241aab9 -> 
-  custom:scripting/monoscript/fileName/MatrixAsset.cs: 31d717efa47b88159821f200baec5d40 -> 
-  custom:scripting/monoscript/fileName/WeldTerrains.cs: 19932f1d05a26faac7f0f798b068ccfc -> 
-  custom:scripting/monoscript/fileName/Matrix3.cs: accce407ae7d36dbc6f3037a1df55b9d -> 
-  custom:scripting/monoscript/fileName/ThreadWorker.cs: 6a855def01ce7d0bb33cf367c37371a7 -> 
-  custom:scripting/monoscript/fileName/NearPlaneIncrease.cs: 5b11c7264005fd33667e09658e8a2058 -> 
-  custom:scripting/monoscript/fileName/TrackballGroupDrawer.cs: 36f1db6df3ee9bb6e23950968f1fa293 -> 
-  custom:scripting/monoscript/fileName/BuiltinDebugViewsEditor.cs: 315fb7cf21f3f53a30e4961d88029d42 -> 
-  custom:scripting/monoscript/fileName/ScreenSpaceReflectionComponent.cs: 79ad7ef64576d014e73a91b6c3af0688 -> 
-  custom:scripting/monoscript/fileName/GetSetDrawer.cs: 19bba8dcf0569bc9ff3f3eb8733c91d8 -> 
-  custom:scripting/monoscript/fileName/MotionBlurModel.cs: 4e24ef1d444a45a9e0056ed75c7c7eb7 -> 
-  custom:scripting/monoscript/fileName/PostProcessingComponent.cs: 85236d6b86a55b2f46a14367ab625049 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/PostProcessingModelEditor.cs: 5454250018fe1f45305c6e2bbb867603 -> 
-  custom:scripting/monoscript/fileName/PostProcessingMonitor.cs: d1e07bd8dc8b5f2f5124f2514220156a -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/MaterialFactory.cs: 39b00f1518fc675c62e508eb4bdec486 -> 
-  custom:scripting/monoscript/fileName/VectorscopeMonitor.cs: 208c293eec47ebea88bea24abfda77aa -> 
-  custom:scripting/monoscript/fileName/CompatibilityManager.cs: 48a778b3ef52fd53df3ff600a180a814 -> 
-  custom:scripting/monoscript/fileName/ColorGradingComponent.cs: fc28099e3cee649b1f5925a07b57ea96 -> 
-  custom:scripting/monoscript/fileName/Generator.cs: e7d746270d6ea0f89c7ea9119fb8ed06 -> 
-  custom:scripting/monoscript/fileName/UserLutModel.cs: ce559ad59b29fc066f37249281afd441 -> 
-  custom:scripting/monoscript/fileName/FlybyController.cs: 28835fd7f9663149a54663b06578cd13 -> 
-  custom:scripting/monoscript/fileName/EditorResources.cs: 9f83d1aedff2fa20e157243f0913ea0e -> 
-  custom:scripting/monoscript/fileName/MinAttribute.cs: 941c73502025168e3301edfeaed1b25e -> 
-  custom:scripting/monoscript/fileName/GrainComponent.cs: fae958f48caa0fab6bcf7f9c48b915e1 -> 
-  custom:scripting/monoscript/fileName/Serializer.cs: 5d5241be95ba2a60b780202bde243a29 -> d7df1b97d0a3bd0bb98fd4d2d5bf5d29
-  custom:scripting/monoscript/fileName/UserLutModelEditor.cs: 342104b23101d3bfd45391c0769a34cf -> 
-  custom:scripting/monoscript/fileName/FogComponent.cs: 2dfe6d4c859eabd11b82ff8fc7d7ad22 -> 
-  custom:scripting/monoscript/fileName/SampleGenerator.cs: b54685d6d799152e9acb1214c105b101 -> 
-  custom:scripting/monoscript/fileName/ScreenSpaceReflectionModelEditor.cs: 7f4dd9c1675fb2cce031c62e047539ef -> 
-  custom:scripting/monoscript/fileName/MatrixGenerators.cs: c4e85a62e4b2dd0ffec58757dcaf9c63 -> 
-  custom:scripting/monoscript/fileName/VignetteComponent.cs: 293deb083808f71d2d18d818ef588272 -> 
-  custom:scripting/monoscript/fileName/FogModel.cs: c4cd4da1fb97c7abf787083602f52bf5 -> 
-  custom:scripting/monoscript/fileName/LegacyOutputs.cs: 7f129e90331702dcd49e39b40b0d2121 -> 
-  custom:scripting/monoscript/fileName/WaveformMonitor.cs: fa17c20b734d78632b46f64cd9d4f8c6 -> 
-  custom:scripting/monoscript/fileName/DitheringComponent.cs: 83d905897534466960141b85361bb6b4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CustomShaderOutput.cs: 79d36e83b2d0a1c9defb23d0cfa9a1da -> 
-  custom:scripting/monoscript/fileName/Matrix.cs: dc43a723ab24f859bab259e0c4f1b6b4 -> 
-  custom:scripting/monoscript/fileName/VignetteModelEditor.cs: e544ec17c4d10dc7a011d82b890e61d2 -> 
-  custom:scripting/monoscript/fileName/UserLutComponent.cs: 944143ce5f543a40c92ecea777f35ae4 -> 
-  custom:scripting/monoscript/fileName/Preview.cs: 9a65c54c972ac6a331d442cda96030be -> 
-  custom:scripting/monoscript/fileName/CurveEditor.cs: 6cba1958072d99c0ff92650cfaf3fa87 -> 
-  custom:scripting/monoscript/fileName/PostProcessingBehaviour.cs: b0fbf7f67aeee9a6f7db03386dbc8c1e -> 
-  custom:scripting/monoscript/fileName/GrainModelEditor.cs: fc1fd3126ff1a32e5c9c0211f235c203 -> 
-  custom:scripting/monoscript/fileName/BloomModel.cs: b4ba3e478c2698eb99512ead9d78d360 -> 
-  custom:scripting/monoscript/fileName/GrainModel.cs: ce4589c9bbcb55f8f632b6617dc5d1f0 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 5660.384861 seconds.
-  path: Assets/Low Poly Survival Kit/Materials/Emission.mat
-  artifactKey: Guid(21595937ec75a5440998abed7f458d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Survival Kit/Materials/Emission.mat using Guid(21595937ec75a5440998abed7f458d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4edfa54ac36a8193f0c3e848e292ab1d') in 0.158682 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Low Poly Survival Kit/Materials/Sky.mat
-  artifactKey: Guid(148160cda95b7054daeed9a6ae5f642a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Survival Kit/Materials/Sky.mat using Guid(148160cda95b7054daeed9a6ae5f642a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2907c569d31b18bea4d940d5c283a55f') in 0.027456 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Low Poly Survival Kit/Materials/Low Grass.mat
-  artifactKey: Guid(2576bb136211eab4d91f609633f27379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Survival Kit/Materials/Low Grass.mat using Guid(2576bb136211eab4d91f609633f27379) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e9807a1b4a6e98c00541a2ae8cd67e8b') in 0.032504 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Low Poly Survival Kit/Materials/Fir Tree Branch.mat
-  artifactKey: Guid(dfaa084fc5af31945becdab51132e7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Survival Kit/Materials/Fir Tree Branch.mat using Guid(dfaa084fc5af31945becdab51132e7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f647e4820e1c5dce239fcadc2482efbf') in 0.028628 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 172.856852 seconds.
-  path: Assets/Low Poly Survival Kit/Meshes/Weapons/Axe.fbx
-  artifactKey: Guid(75844e4318ffb7a46918ee488a718d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Survival Kit/Meshes/Weapons/Axe.fbx using Guid(75844e4318ffb7a46918ee488a718d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '38651eac237359412cbab7c3fbcd1cba') in 0.106340 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 37
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Low Poly Survival Kit/Meshes/Weapons/Grenade.fbx
-  artifactKey: Guid(54e3247fc788dce429e9f6b71235560a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Survival Kit/Meshes/Weapons/Grenade.fbx using Guid(54e3247fc788dce429e9f6b71235560a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f947ef6b624c6b4d5d78f3a1f3bb558d') in 0.135977 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 67
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Low Poly Survival Kit/Meshes/Weapons/Wooden Spear.fbx
-  artifactKey: Guid(1b045988c3be69c42899de16a4fc3254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Survival Kit/Meshes/Weapons/Wooden Spear.fbx using Guid(1b045988c3be69c42899de16a4fc3254) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1c13d773ac0e371763b135d4588de1dc') in 0.082563 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 37
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Low Poly Survival Kit/Meshes/Weapons/Bone Knife.fbx
-  artifactKey: Guid(21798b2b6691de64f9a63748f54949d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Survival Kit/Meshes/Weapons/Bone Knife.fbx using Guid(21798b2b6691de64f9a63748f54949d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '786a09d42938ba81766a9042b53da3f5') in 0.096012 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 37
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Low Poly Survival Kit/Meshes/Weapons/Skull Club.fbx
-  artifactKey: Guid(55eeccf1e35c40940b4c0c020574b84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Survival Kit/Meshes/Weapons/Skull Club.fbx using Guid(55eeccf1e35c40940b4c0c020574b84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b725be91682e9ed1d74a60a199a3b8ef') in 0.107735 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 37
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Low Poly Survival Kit/Meshes/Weapons/Machete.fbx
-  artifactKey: Guid(fd19fc2d923438541ba5c23a46fbe305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Survival Kit/Meshes/Weapons/Machete.fbx using Guid(fd19fc2d923438541ba5c23a46fbe305) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a4dca702594087a6d31de11a202f6ad7') in 0.074164 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 37
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Low Poly Survival Kit/Meshes/Weapons/Mace.fbx
-  artifactKey: Guid(2689437f50e7ad146a238fbd91ccf73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Survival Kit/Meshes/Weapons/Mace.fbx using Guid(2689437f50e7ad146a238fbd91ccf73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f6e97a8ea71a223292d6ce8839e8426c') in 0.076550 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 37
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Low Poly Survival Kit/Meshes/Weapons/Hunting Rifle.fbx
-  artifactKey: Guid(0232c3dbb26f4be44838968925b9f387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Survival Kit/Meshes/Weapons/Hunting Rifle.fbx using Guid(0232c3dbb26f4be44838968925b9f387) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c604f05f97d598ee4ddf7ff355fbcf55') in 0.290527 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 158
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Low Poly Survival Kit/Meshes/Weapons/Bone Club.fbx
-  artifactKey: Guid(45df51f557eab6f41a819e76968a96ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Survival Kit/Meshes/Weapons/Bone Club.fbx using Guid(45df51f557eab6f41a819e76968a96ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2eb816a1ad96d3596b2e675a7ddc6868') in 0.082164 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 37
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Low Poly Survival Kit/Meshes/Weapons/Wooden Bow.fbx
-  artifactKey: Guid(156955a64eeb3fd49888051ecbfa4223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Survival Kit/Meshes/Weapons/Wooden Bow.fbx using Guid(156955a64eeb3fd49888051ecbfa4223) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '235963846341f2e58cc34fce965dbc61') in 0.093134 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 37
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Low Poly Survival Kit/Meshes/Weapons/Stone Spear.fbx
-  artifactKey: Guid(0954f332817a7d242bfe14db5d393c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Survival Kit/Meshes/Weapons/Stone Spear.fbx using Guid(0954f332817a7d242bfe14db5d393c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '5a03d9cb1ac5d50d38fb479740f4383f') in 0.080599 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 37
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Low Poly Survival Kit/Meshes/Weapons/Knife.fbx
-  artifactKey: Guid(d19f5f6f9c5a229478815759288afe11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Survival Kit/Meshes/Weapons/Knife.fbx using Guid(d19f5f6f9c5a229478815759288afe11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '183fb1d49b793140446ad3bf081ca624') in 0.090672 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 37
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Low Poly Survival Kit/Meshes/Weapons/Dynamite.fbx
-  artifactKey: Guid(dadd565db5874c1499e7810c06f8fee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Survival Kit/Meshes/Weapons/Dynamite.fbx using Guid(dadd565db5874c1499e7810c06f8fee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '12201d082ec587121f3797b7f4c2f575') in 0.082171 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 37
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.552 seconds
-Refreshing native plugins compatible for Editor in 3.60 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.115 seconds
-Domain Reload Profiling: 1664ms
-	BeginReloadAssembly (174ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (281ms)
-		LoadAssemblies (364ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (18ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1116ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (469ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (330ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (20ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 5.24 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3155 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (31.6 KB). Loaded Objects now: 3695.
-Memory consumption went from 135.6 MB to 135.6 MB.
-Total: 4.210000 ms (FindLiveObjects: 0.282900 ms CreateObjectMapping: 0.111100 ms MarkObjects: 3.732300 ms  DeleteObjects: 0.082300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/Noise.cs: c940f23b709c2d9c55d09846f002af43 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/LodDisable.cs: 95e8b3757c05b69f183c9d998498a8db -> 
-  custom:scripting/monoscript/fileName/MapMagicEditor.cs: 4d93aa5e2e472ee6e62cab9fa11837ed -> 
-  custom:scripting/monoscript/fileName/VignetteModel.cs: ab6733272f937ac0155aab47b4a8e58e -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/EyeAdaptationModel.cs: 5bcc92c7d981d480ed07d6af7dd1a959 -> 
-  custom:scripting/monoscript/fileName/DictTuple.cs: bd9b03fedf47069fb35d83319d7bb848 -> 
-  custom:scripting/monoscript/fileName/PostProcessingModelEditorAttribute.cs: 84467b1ef2082fe26f00bdedc34db836 -> 
-  custom:scripting/monoscript/fileName/ReflectionUtils.cs: 14b4c7d2cdf78d9b158d00fb2c3c24b2 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/ExampleWheelController.cs: 9600d370c57ff0da5766666ba4365a29 -> 
-  custom:scripting/monoscript/fileName/GetSetAttribute.cs: b786c1938e0c0f5ecaf463807c2d7653 -> 
-  custom:scripting/monoscript/fileName/FxStyles.cs: 82e974921467cb55809ecad82f38f7ca -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/PostProcessingContext.cs: be8a0bc1565c6324b1fd40a33f66279b -> 
-  custom:scripting/monoscript/fileName/MapMagic.cs: 1ce712114d0e7d8051d48d8534d7e0ca -> 
-  custom:scripting/monoscript/fileName/Erosion.cs: 19baf7430709efa5139159d2d8de2758 -> 
-  custom:scripting/monoscript/fileName/PostProcessingInspector.cs: b617eaa0b6e3e752eaf9e9a89203dc82 -> 
-  custom:scripting/monoscript/fileName/AntialiasingModelEditor.cs: 0f2b80733b1449af72ed38ee469e2a30 -> 
-  custom:scripting/monoscript/fileName/InstantUpdater.cs: ecf06d24658b7ff6e288ed19df5e6ba6 -> 
-  custom:scripting/monoscript/fileName/EyeAdaptationComponent.cs: 0cb2aaf8cdc20c0baee2205168cbc73c -> 
-  custom:scripting/monoscript/fileName/FxaaComponent.cs: 9d1fd3efb92e1fef6fd176ee45003f08 -> 
-  custom:scripting/monoscript/fileName/CustomSerialization.cs: dbf92c9f651dc9ae9bf1564465de353a -> 
-  custom:scripting/monoscript/fileName/ArrayTools.cs: b28b0bd3ff1ce91819cf101c80d52a30 -> 
-  custom:scripting/monoscript/fileName/GeneratingLabel.cs: 3971cf9c983d2ce89401175e7218bc23 -> 
-  custom:scripting/monoscript/fileName/DitheringModel.cs: fa99c50231ddc7ca26b5d6c9a68b4b31 -> 
-  custom:scripting/monoscript/fileName/PopupMenu.cs: 1836e0a3e79758726ab1779f476c9efa -> 
-  custom:scripting/monoscript/fileName/LegacyGenerators.cs: b496f1d5d2b55b857a1631b6f30d99a5 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/monoscript/fileName/ObjectGenerators.cs: 3d645ac083e8211286cb8092c2e6d326 -> 
-  custom:scripting/monoscript/fileName/TrackballAttribute.cs: f1962deba67196a6cd6b7953be1caf36 -> 
-  custom:scripting/monoscript/fileName/PostProcessingProfile.cs: e94a21971fab43a541218a4f91e0403c -> 
-  custom:scripting/monoscript/fileName/BuiltinDebugViewsModel.cs: 4a09809f2c0ed6cca27229b06ce1d289 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/RenderTextureFactory.cs: b11bc916a1a88ed67d986ee69a536511 -> 
-  custom:scripting/monoscript/fileName/FogModelEditor.cs: 64b75506b78e4411272a1d25aff5dcfd -> 
-  custom:scripting/monoscript/fileName/ColliderChecker.cs: ab4735a6c890b39137bde0f81c531ae3 -> 
-  custom:scripting/monoscript/fileName/EyeAdaptationModelEditor.cs: ee1343b3ceaceb2c63bf272baf871cbd -> 
-  custom:scripting/monoscript/fileName/DefaultPostFxModelEditor.cs: e4be4b1d308934dee3a6a91920dc1b3d -> 
-  custom:scripting/monoscript/fileName/PostProcessingFactory.cs: f4e35cbabcf5e0add8e963bb8ab175b2 -> 
-  custom:scripting/monoscript/fileName/Random.cs: ac2a67d5abb546ac65c3ef2944cf610d -> 
-  custom:scripting/monoscript/fileName/CharController_Motor.cs: 95ad6a9e9f41b77ac8821bbc7a22986e -> 
-  custom:scripting/monoscript/fileName/SpatialHash.cs: 5615169738575b10f9b3dc8267ce5dbc -> 
-  custom:scripting/monoscript/fileName/DepthOfFieldModel.cs: ab243c09a4b44fd7a53f73051db01cbc -> 
-  custom:scripting/monoscript/fileName/FPSDisplay.cs: 4de2b1268e0d108618b876b31a439b05 -> 
-  custom:scripting/monoscript/fileName/ColorGradingModel.cs: d1c2ef15f5e9e4868052777d51361b40 -> 
-  custom:scripting/monoscript/fileName/ScreenSpaceReflectionModel.cs: 507d9c80d381478e1c14f5bfe34012ae -> 
-  custom:scripting/monoscript/fileName/OutputGenerators.cs: 6feaa790f619d02bda360ef52f9a3d8b -> 
-  custom:scripting/monoscript/fileName/Matrix2.cs: 353c48a6c941c0c1dcee7848b70b449e -> 
-  custom:scripting/monoscript/fileName/TrackballGroupAttribute.cs: 6d071733b141a3fb3360b110560ed1cc -> 
-  custom:scripting/monoscript/fileName/DitheringModelEditor.cs: 98ce08c54d480e2032b7e03104c8332a -> 
-  custom:scripting/monoscript/fileName/WorldShifter.cs: cd3376c93c4689c345c598a0d4850005 -> 
-  custom:scripting/monoscript/fileName/Chunk.cs: c0f2f1a2773edc51ccb12c57fe492881 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/Extensions.cs: f57a70d491aedffc9aa98e6ba0abdf61 -> 
-  custom:scripting/monoscript/fileName/CharController.cs: 6f763a035ea7014242f18a23a9ff7dd4 -> 
-  custom:scripting/monoscript/fileName/ObjectPool.cs: d2f9fcd577260cb08ef3283c02f83a82 -> 
-  custom:scripting/monoscript/fileName/Layout.cs: 220ef068b223fe2fabb3c2962c08912c -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/BloomComponent.cs: 755f611bb4d32a54d162192a9fc6dd86 -> 
-  custom:scripting/monoscript/fileName/MotionBlurComponent.cs: 6cf5a99eefa473d803af3e64f841a0a6 -> 
-  custom:scripting/monoscript/fileName/WaterFloat.cs: 7ac8cb1106d215ea46d43dade9dd92c7 -> 
-  custom:scripting/monoscript/fileName/Curve.cs: bd33c5a00da792bf3de10500fb596344 -> 
-  custom:scripting/monoscript/fileName/BuiltinDebugViewsComponent.cs: 1b8215a7f6eae55c3fc6a97379498db3 -> 
-  custom:scripting/monoscript/fileName/GeneratorsAsset.cs: b01e7e7e3f91ae783d5aca863c1b0701 -> 
-  custom:scripting/monoscript/fileName/MotionBlurModelEditor.cs: 214d77ab75c222685eecaec8c6aed3b0 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/ChromaticAberrationEditor.cs: 4b6bc01a6288a606d1a3fe94f621633b -> 
-  custom:scripting/monoscript/fileName/MapMagicWindow.cs: c09d4d892771e16784b8c886e533b7ed -> 
-  custom:scripting/monoscript/fileName/AmbientOcclusionModel.cs: ac26bcd19cab8c88e9b65cb75ee1c356 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/VoxelandOutputs.cs: 39a0f167c943007d0177bff4390976c2 -> 
-  custom:scripting/monoscript/fileName/GuiController.cs: ce9ac38a8604dfa985443a8359c0de06 -> 
-  custom:scripting/monoscript/fileName/DisableRenderer.cs: 9cd9383a8381a51854f8fab592706848 -> 
-  custom:scripting/monoscript/fileName/AmbientOcclusionComponent.cs: ae5a7089fb97a5a97a8f11138ce7c9d2 -> 
-  custom:scripting/monoscript/fileName/GraphicsUtils.cs: f7df21c2acb52bb931f99c0a424b6be0 -> 
-  custom:scripting/monoscript/fileName/DepthOfFieldComponent.cs: b0afd8f8844e3e4017df6130c14d0dfc -> 
-  custom:scripting/monoscript/fileName/ColorGradingModelEditor.cs: d8393f813d799206976f65da1ab781ef -> 
-  custom:scripting/monoscript/fileName/ColorGradingCurve.cs: e1e989893ee31e7801923212f0468312 -> 
-  custom:scripting/monoscript/fileName/MoveSun.cs: 5da054fd1c718f6000bf927582cd25a4 -> 
-  custom:scripting/monoscript/fileName/GeneratorsAssetEditor.cs: 131ce17f69d222baef6dbf36c443878f -> 
-  custom:scripting/monoscript/fileName/AntialiasingModel.cs: 325b0130eaada61513aeac7b8c97a9d7 -> 
-  custom:scripting/monoscript/fileName/ChromaticAberrationModel.cs: 3f166f1ecbc6f39ed2f6b10cbc5b4ba4 -> 
-  custom:scripting/monoscript/fileName/ChunkGrid.cs: 4ff36c17bdde6034a3f4452fab314f60 -> 
-  custom:scripting/monoscript/fileName/AmbientOcclusionModelEditor.cs: 99a92cb6d65b3a11adad7b285256ee66 -> 
-  custom:scripting/monoscript/fileName/TaaComponent.cs: 7c343e97072a6712c3a2b01e75fdb7fa -> 
-  custom:scripting/monoscript/fileName/ParadeMonitor.cs: cae69c77ac3a6bd03788e390b0793dce -> 
-  custom:scripting/monoscript/fileName/BloomModelEditor.cs: 82667d6cbb2e9deab73f43bddd4cb3ad -> 
-  custom:scripting/monoscript/fileName/CameraController.cs: 7fc8110aac094a008f1cfebf3aa75e8e -> 
-  custom:scripting/monoscript/fileName/VegetationStudioOutput.cs: 533350ee1eb2dda6c19efcd0bd568868 -> 
-  custom:scripting/monoscript/fileName/HistogramMonitor.cs: 89c185ea097a2554de07760bc4248c43 -> 
-  custom:scripting/monoscript/fileName/CharRover.cs: 089dcc3d4c21d37bb4ec53592efa2bea -> 
-  custom:scripting/monoscript/fileName/PostProcessingBehaviourEditor.cs: 066ae7bf767a73228aa8d9e772743d81 -> 
-  custom:scripting/monoscript/fileName/InstantUpdaterEditor.cs: 7322fb8f340a309b522e36b8ee4c53ce -> 
-  custom:scripting/monoscript/fileName/PostProcessingModel.cs: 2f64caba6afa59bc78865f13b6f9065d -> 
-  custom:scripting/monoscript/fileName/PreviewWindow.cs: a4239be48c929bde5db5645d2187ae2a -> 
-  custom:scripting/monoscript/fileName/EditorGUIHelper.cs: 4a11466b474c4ddf8b0e969391a97509 -> 
-  custom:scripting/monoscript/fileName/DepthOfFieldModelEditor.cs: c9db63f1a070d3e8ad359080de3aa855 -> 
-  custom:scripting/monoscript/fileName/ChromaticAberrationComponent.cs: cda95994b71ba23d0c0f0fe0f241aab9 -> 
-  custom:scripting/monoscript/fileName/MatrixAsset.cs: 31d717efa47b88159821f200baec5d40 -> 
-  custom:scripting/monoscript/fileName/WeldTerrains.cs: 19932f1d05a26faac7f0f798b068ccfc -> 
-  custom:scripting/monoscript/fileName/Matrix3.cs: accce407ae7d36dbc6f3037a1df55b9d -> 
-  custom:scripting/monoscript/fileName/ThreadWorker.cs: 6a855def01ce7d0bb33cf367c37371a7 -> 
-  custom:scripting/monoscript/fileName/NearPlaneIncrease.cs: 5b11c7264005fd33667e09658e8a2058 -> 
-  custom:scripting/monoscript/fileName/TrackballGroupDrawer.cs: 36f1db6df3ee9bb6e23950968f1fa293 -> 
-  custom:scripting/monoscript/fileName/BuiltinDebugViewsEditor.cs: 315fb7cf21f3f53a30e4961d88029d42 -> 
-  custom:scripting/monoscript/fileName/ScreenSpaceReflectionComponent.cs: 79ad7ef64576d014e73a91b6c3af0688 -> 
-  custom:scripting/monoscript/fileName/GetSetDrawer.cs: 19bba8dcf0569bc9ff3f3eb8733c91d8 -> 
-  custom:scripting/monoscript/fileName/MotionBlurModel.cs: 4e24ef1d444a45a9e0056ed75c7c7eb7 -> 
-  custom:scripting/monoscript/fileName/PostProcessingComponent.cs: 85236d6b86a55b2f46a14367ab625049 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/PostProcessingModelEditor.cs: 5454250018fe1f45305c6e2bbb867603 -> 
-  custom:scripting/monoscript/fileName/PostProcessingMonitor.cs: d1e07bd8dc8b5f2f5124f2514220156a -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/MaterialFactory.cs: 39b00f1518fc675c62e508eb4bdec486 -> 
-  custom:scripting/monoscript/fileName/VectorscopeMonitor.cs: 208c293eec47ebea88bea24abfda77aa -> 
-  custom:scripting/monoscript/fileName/CompatibilityManager.cs: 48a778b3ef52fd53df3ff600a180a814 -> 
-  custom:scripting/monoscript/fileName/ColorGradingComponent.cs: fc28099e3cee649b1f5925a07b57ea96 -> 
-  custom:scripting/monoscript/fileName/Generator.cs: e7d746270d6ea0f89c7ea9119fb8ed06 -> 
-  custom:scripting/monoscript/fileName/UserLutModel.cs: ce559ad59b29fc066f37249281afd441 -> 
-  custom:scripting/monoscript/fileName/FlybyController.cs: 28835fd7f9663149a54663b06578cd13 -> 
-  custom:scripting/monoscript/fileName/EditorResources.cs: 9f83d1aedff2fa20e157243f0913ea0e -> 
-  custom:scripting/monoscript/fileName/MinAttribute.cs: 941c73502025168e3301edfeaed1b25e -> 
-  custom:scripting/monoscript/fileName/GrainComponent.cs: fae958f48caa0fab6bcf7f9c48b915e1 -> 
-  custom:scripting/monoscript/fileName/Serializer.cs: 5d5241be95ba2a60b780202bde243a29 -> d7df1b97d0a3bd0bb98fd4d2d5bf5d29
-  custom:scripting/monoscript/fileName/UserLutModelEditor.cs: 342104b23101d3bfd45391c0769a34cf -> 
-  custom:scripting/monoscript/fileName/FogComponent.cs: 2dfe6d4c859eabd11b82ff8fc7d7ad22 -> 
-  custom:scripting/monoscript/fileName/SampleGenerator.cs: b54685d6d799152e9acb1214c105b101 -> 
-  custom:scripting/monoscript/fileName/ScreenSpaceReflectionModelEditor.cs: 7f4dd9c1675fb2cce031c62e047539ef -> 
-  custom:scripting/monoscript/fileName/MatrixGenerators.cs: c4e85a62e4b2dd0ffec58757dcaf9c63 -> 
-  custom:scripting/monoscript/fileName/VignetteComponent.cs: 293deb083808f71d2d18d818ef588272 -> 
-  custom:scripting/monoscript/fileName/FogModel.cs: c4cd4da1fb97c7abf787083602f52bf5 -> 
-  custom:scripting/monoscript/fileName/LegacyOutputs.cs: 7f129e90331702dcd49e39b40b0d2121 -> 
-  custom:scripting/monoscript/fileName/WaveformMonitor.cs: fa17c20b734d78632b46f64cd9d4f8c6 -> 
-  custom:scripting/monoscript/fileName/DitheringComponent.cs: 83d905897534466960141b85361bb6b4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CustomShaderOutput.cs: 79d36e83b2d0a1c9defb23d0cfa9a1da -> 
-  custom:scripting/monoscript/fileName/Matrix.cs: dc43a723ab24f859bab259e0c4f1b6b4 -> 
-  custom:scripting/monoscript/fileName/VignetteModelEditor.cs: e544ec17c4d10dc7a011d82b890e61d2 -> 
-  custom:scripting/monoscript/fileName/UserLutComponent.cs: 944143ce5f543a40c92ecea777f35ae4 -> 
-  custom:scripting/monoscript/fileName/Preview.cs: 9a65c54c972ac6a331d442cda96030be -> 
-  custom:scripting/monoscript/fileName/CurveEditor.cs: 6cba1958072d99c0ff92650cfaf3fa87 -> 
-  custom:scripting/monoscript/fileName/PostProcessingBehaviour.cs: b0fbf7f67aeee9a6f7db03386dbc8c1e -> 
-  custom:scripting/monoscript/fileName/GrainModelEditor.cs: fc1fd3126ff1a32e5c9c0211f235c203 -> 
-  custom:scripting/monoscript/fileName/BloomModel.cs: b4ba3e478c2698eb99512ead9d78d360 -> 
-  custom:scripting/monoscript/fileName/GrainModel.cs: ce4589c9bbcb55f8f632b6617dc5d1f0 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
