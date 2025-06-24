@@ -2,22 +2,30 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
-    public float health = 100f;
+    public float maxHealth = 100;
+    public float currentHealth;
+    public PlayerHealth playerHealth;
+
+    void Start()
+    {
+        currentHealth = maxHealth;
+    }
 
     public void TakeDamage(float damage)
     {
-        health -= damage;
-        Debug.Log($"{gameObject.name} b? trúng tên, còn {health} máu");
+        currentHealth -= damage;
 
-        if (health <= 0)
+        if (currentHealth <= 0f)
         {
-            Die();
+            Destroy(gameObject);
         }
     }
 
-    void Die()
+    private void OnCollisionEnter(Collision other)
     {
-        Debug.Log($"{gameObject.name} ?ã ch?t");
-        Destroy(gameObject); // Xoá ??i t??ng sau khi ch?t
+        if (other.gameObject.CompareTag("Player"))
+        {
+            playerHealth.TakeDamage(10);
+        }
     }
 }

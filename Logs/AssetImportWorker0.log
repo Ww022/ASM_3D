@@ -15,7 +15,7 @@ C:/HThuan/ASM_3D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51795
+59457
 Successfully changed project path to: C:/HThuan/ASM_3D
 C:/HThuan/ASM_3D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/HThuan/ASM_3D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2620] Host "[IP] 172.16.72.4 [Port] 0 [Flags] 2 [Guid] 1833371138 [EditorId] 1833371138 [Version] 1048832 [Id] WindowsEditor(7,Thuan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27700] Host "[IP] 192.168.97.5 [Port] 0 [Flags] 2 [Guid] 2904083931 [EditorId] 2904083931 [Version] 1048832 [Id] WindowsEditor(7,Thuan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2620] Host "[IP] 172.16.72.4 [Port] 0 [Flags] 2 [Guid] 1833371138 [EditorId] 1833371138 [Version] 1048832 [Id] WindowsEditor(7,Thuan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27700] Host "[IP] 192.168.97.5 [Port] 0 [Flags] 2 [Guid] 2904083931 [EditorId] 2904083931 [Version] 1048832 [Id] WindowsEditor(7,Thuan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 14.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.37f1 (340ba89e4c23)
 [Subsystems] Discovering subsystems at path C:/Unity/2022.3.37f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Unity/2022.3.37f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Unity/2022.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Unity/2022.3.37f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Unity/2022.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007996 seconds.
-- Loaded All Assemblies, in  0.493 seconds
+Registered in 0.004777 seconds.
+- Loaded All Assemblies, in  0.324 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.389 seconds
-Domain Reload Profiling: 878ms
-	BeginReloadAssembly (151ms)
+- Finished resetting the current domain, in  0.252 seconds
+Domain Reload Profiling: 575ms
+	BeginReloadAssembly (103ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (80ms)
-	LoadAllAssembliesAndSetupDomain (199ms)
-		LoadAssemblies (148ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (127ms)
+		LoadAssemblies (101ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (196ms)
-			TypeCache.Refresh (194ms)
-				TypeCache.ScanAssembly (177ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (389ms)
+		AnalyzeDomain (125ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (112ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (253ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (308ms)
+		SetupLoadedEditorAssemblies (197ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (13ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (216ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (134ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,51 +115,51 @@ Domain Reload Profiling: 878ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.847 seconds
-Refreshing native plugins compatible for Editor in 5.51 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.578 seconds
+Refreshing native plugins compatible for Editor in 2.97 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.796 seconds
-Domain Reload Profiling: 1639ms
-	BeginReloadAssembly (205ms)
+- Finished resetting the current domain, in  0.519 seconds
+Domain Reload Profiling: 1094ms
+	BeginReloadAssembly (136ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (526ms)
-		LoadAssemblies (425ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (360ms)
+		LoadAssemblies (275ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (221ms)
-			TypeCache.Refresh (190ms)
-				TypeCache.ScanAssembly (170ms)
-			ScanForSourceGeneratedMonoScriptInfo (20ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (796ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (131ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (520ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (591ms)
+		SetupLoadedEditorAssemblies (381ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (85ms)
-			ProcessInitializeOnLoadAttributes (456ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (295ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 5.24 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3226 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (58.4 KB). Loaded Objects now: 3711.
-Memory consumption went from 139.5 MB to 139.5 MB.
-Total: 4.498600 ms (FindLiveObjects: 0.522000 ms CreateObjectMapping: 0.214400 ms MarkObjects: 3.584200 ms  DeleteObjects: 0.175700 ms)
+Unloading 3230 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (57.9 KB). Loaded Objects now: 3716.
+Memory consumption went from 139.8 MB to 139.8 MB.
+Total: 3.177400 ms (FindLiveObjects: 0.344800 ms CreateObjectMapping: 0.110400 ms MarkObjects: 2.585400 ms  DeleteObjects: 0.134800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -177,1017 +177,688 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 6732.344334 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(8ece87503f4fcb14fba9c8dbcb7e8075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(8ece87503f4fcb14fba9c8dbcb7e8075) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '18c592f99c3adaffb90c5dedbbdae3ee') in 0.023495 seconds
+  Time since last request: 14047.343917 seconds.
+  path: Assets/Prefab/Player.prefab
+  artifactKey: Guid(630f4d6c2e87c774d9994100ac258afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Player.prefab using Guid(630f4d6c2e87c774d9994100ac258afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9be8841676a88306fb721dd22d3da4ba') in 0.165954 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 206
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.337 seconds
+Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.640 seconds
+Domain Reload Profiling: 975ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (212ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (640ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (275ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (205ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3207 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (31.6 KB). Loaded Objects now: 3728.
+Memory consumption went from 141.2 MB to 141.2 MB.
+Total: 2.388100 ms (FindLiveObjects: 0.182400 ms CreateObjectMapping: 0.060700 ms MarkObjects: 2.095600 ms  DeleteObjects: 0.048300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.371 seconds
+Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.776 seconds
+Domain Reload Profiling: 1145ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (227ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (777ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (338ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (254ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (31.7 KB). Loaded Objects now: 3731.
+Memory consumption went from 141.5 MB to 141.5 MB.
+Total: 2.467500 ms (FindLiveObjects: 0.184300 ms CreateObjectMapping: 0.076600 ms MarkObjects: 2.154700 ms  DeleteObjects: 0.051100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Arrow_04.prefab
-  artifactKey: Guid(168b5fbf42a43c74ba009aa5b26b7c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arrow_04.prefab using Guid(168b5fbf42a43c74ba009aa5b26b7c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '39931a3fbb5522ecae20500c629936d1') in 0.030082 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 6.819259 seconds.
+  Time since last request: 44.804218 seconds.
   path: Assets/Prefab/Arrow_01.prefab
   artifactKey: Guid(45804eb2722b83845adbcf2d72da12dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefab/Arrow_01.prefab using Guid(45804eb2722b83845adbcf2d72da12dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a005594e69b7efbaf933987d280b78a1') in 0.161831 seconds
+ -> (artifact id: '5a912e9c8cf1d92458dd0712db26630b') in 0.065153 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 12
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Prefab/Deer_001.prefab
-  artifactKey: Guid(4ecab060b0afb5d4db61f7f1311b9e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Deer_001.prefab using Guid(4ecab060b0afb5d4db61f7f1311b9e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '73f4bc91897611d18218dd07a817ac17') in 0.054498 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 90
-========================================================================
-Received Import Request.
-  Time since last request: 3.629292 seconds.
-  path: Assets/Scene/pexels-lum3n-44775-167684.jpg
-  artifactKey: Guid(a6ce0e1b7fea6c84e9c1022167a224e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene/pexels-lum3n-44775-167684.jpg using Guid(a6ce0e1b7fea6c84e9c1022167a224e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9eaee97302760b1baa2bc774cb8b2d23') in 0.091309 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 153.306501 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Arrow_02.fbx
-  artifactKey: Guid(82a5db1af29d03a4b81fef797886d50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Arrow_02.fbx using Guid(82a5db1af29d03a4b81fef797886d50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4d01aca9b3c7c45e75414b78eb3d6739') in 0.054075 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Bed_02.fbx
-  artifactKey: Guid(1fb8c0af2eba2164395d99cc32a21735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Bed_02.fbx using Guid(1fb8c0af2eba2164395d99cc32a21735) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '02f86d80c413a6ba33b7fce044af47d8') in 0.038817 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/CookingSet_02.fbx
-  artifactKey: Guid(9f34334250812ab4cb74a7541b17d670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/CookingSet_02.fbx using Guid(9f34334250812ab4cb74a7541b17d670) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '03b2438361006c0266615ef1e3ead542') in 0.062410 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Coin_03.fbx
-  artifactKey: Guid(36e058f85beb35c42925e0a5ff012627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Coin_03.fbx using Guid(36e058f85beb35c42925e0a5ff012627) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a2af8cec1bbc366df7c91e3721c178fe') in 0.064179 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/ClimbingStick_01.fbx
-  artifactKey: Guid(b0ae02754e268484daa5f43f6e8a90d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/ClimbingStick_01.fbx using Guid(b0ae02754e268484daa5f43f6e8a90d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd6cdcc974235996081cf59896b36e36d') in 0.034384 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Battery_01.fbx
-  artifactKey: Guid(18255acd3ac5549448fa22e9d6169454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Battery_01.fbx using Guid(18255acd3ac5549448fa22e9d6169454) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6e382eebc4a2831049608ea6e077244f') in 0.032151 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Bow_02.fbx
-  artifactKey: Guid(8a06f866c26f36f4da32d97f6e75fe20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Bow_02.fbx using Guid(8a06f866c26f36f4da32d97f6e75fe20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '25dbc8dd67081ade7137cc5f7567b468') in 0.027749 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/BaseballBat_02.fbx
-  artifactKey: Guid(1d127ca8984f72c48b76e248065cf206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/BaseballBat_02.fbx using Guid(1d127ca8984f72c48b76e248065cf206) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e69fb4430aa1b893107635e11f9016a8') in 0.031299 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Axe_01.fbx
-  artifactKey: Guid(b26e07b874e8aff49b2ee1f07b34b68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Axe_01.fbx using Guid(b26e07b874e8aff49b2ee1f07b34b68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c86424f7b15b2509b4797cfeeec492ee') in 0.029935 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/CookingSet_01.fbx
-  artifactKey: Guid(078923d929ff2cb4e961eab42f5f712e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/CookingSet_01.fbx using Guid(078923d929ff2cb4e961eab42f5f712e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e4f62065bfc5ac138d7c33435fb740d9') in 0.032987 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Coin_02.fbx
-  artifactKey: Guid(7f8de179997ac4c4ead60834964755d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Coin_02.fbx using Guid(7f8de179997ac4c4ead60834964755d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7013b84a938d4f5488fb297b584d97e6') in 0.029434 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Arrow_04.fbx
-  artifactKey: Guid(14dd357cc5f3a764db1e87e0c3a52aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Arrow_04.fbx using Guid(14dd357cc5f3a764db1e87e0c3a52aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9cd907c6ab020acd2d54306c37256b0e') in 0.027800 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Axe_02.fbx
-  artifactKey: Guid(e00ccb7265930194a9a378dbdc86d461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Axe_02.fbx using Guid(e00ccb7265930194a9a378dbdc86d461) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3303f88cd0a494b96202293b12b69c91') in 0.029833 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Boat_02.fbx
-  artifactKey: Guid(50a07ba28ce5b5a49809f8f86880661f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Boat_02.fbx using Guid(50a07ba28ce5b5a49809f8f86880661f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a46ad34e88a86ecd2efbfc62b9895c55') in 0.029902 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Boat_01.fbx
-  artifactKey: Guid(7dcdd689d53f77d4c9ea52f1f3a5c54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Boat_01.fbx using Guid(7dcdd689d53f77d4c9ea52f1f3a5c54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '5953622671f0fe0af18f86f3dc50c6a5') in 0.029225 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Berry_02.fbx
-  artifactKey: Guid(a15c93e0366030f41888d2d4dc96129d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Berry_02.fbx using Guid(a15c93e0366030f41888d2d4dc96129d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '46d2072d5b5cdfb235922a326dcf7bea') in 0.031863 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Bow_01.fbx
-  artifactKey: Guid(92f9aa86f2483fd4ea98ad245f0f8d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Bow_01.fbx using Guid(92f9aa86f2483fd4ea98ad245f0f8d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '60f2de4226d2101406a4607ec61085ae') in 0.028416 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/CannedFood_03.fbx
-  artifactKey: Guid(4dcc1e130d6cad44ab6b0faf73cdaaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/CannedFood_03.fbx using Guid(4dcc1e130d6cad44ab6b0faf73cdaaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8b2db7afa6629d27247708f4ad216885') in 0.027270 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/ClimbingStick_02.fbx
-  artifactKey: Guid(300e01af45a41e04380dcf7290b6122c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/ClimbingStick_02.fbx using Guid(300e01af45a41e04380dcf7290b6122c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '33a382098d3d83555d5200eb78509c99') in 0.029486 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Bed_01.fbx
-  artifactKey: Guid(4d7fe352e3d6aa94aa435dbb925402f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Bed_01.fbx using Guid(4d7fe352e3d6aa94aa435dbb925402f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '82c153ad587ff34a01efc7b93a0f6837') in 0.029013 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/CannedFood_02.fbx
-  artifactKey: Guid(d304139c025cd2240bf74458f27ac1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/CannedFood_02.fbx using Guid(d304139c025cd2240bf74458f27ac1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0ddab6335162b57087dc0a48ded6aed5') in 0.030627 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Bow_03.fbx
-  artifactKey: Guid(8bf035a065ee9b745971b2492d07aa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Bow_03.fbx using Guid(8bf035a065ee9b745971b2492d07aa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '422bee475dd0a903003edf09a34a87eb') in 0.027368 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Campfire.fbx
-  artifactKey: Guid(19077289150bc3747b33895642781cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Campfire.fbx using Guid(19077289150bc3747b33895642781cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'cc9fd1f11df3874db980e4817ff90be2') in 0.031046 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.614435 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Cup.fbx
-  artifactKey: Guid(802eda96e51abc94e8bceabcec52e771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Cup.fbx using Guid(802eda96e51abc94e8bceabcec52e771) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f7aaf674dfc398b2eccacc121b67f9a5') in 0.028537 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/FoodCooler.fbx
-  artifactKey: Guid(dea9d3720b29e084681af92e06cbacde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/FoodCooler.fbx using Guid(dea9d3720b29e084681af92e06cbacde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '63898041827d8cc0957183d38d2fde6c') in 0.037750 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/GlassBottle_01.fbx
-  artifactKey: Guid(af81fb0cae847824abd734a05431c27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/GlassBottle_01.fbx using Guid(af81fb0cae847824abd734a05431c27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f4a5f0c3bb7726f22857ac2ea0c37e43') in 0.030070 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Jug.fbx
-  artifactKey: Guid(cc2c848e6fadd6142a1c84f850a50c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Jug.fbx using Guid(cc2c848e6fadd6142a1c84f850a50c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '96282aada102c7ddee11bf33d13f663d') in 0.027724 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Hammer_01.fbx
-  artifactKey: Guid(8e94da3ad37860241ba8d19afea7da17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Hammer_01.fbx using Guid(8e94da3ad37860241ba8d19afea7da17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ee495b97f570bd00a8412a457dc4d40f') in 0.028649 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Flashlight_01.fbx
-  artifactKey: Guid(128c65873b893754ebcc24386fb36ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Flashlight_01.fbx using Guid(128c65873b893754ebcc24386fb36ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8094701ba130f555fe56932225fc8321') in 0.027892 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/GlassBottle_02.fbx
-  artifactKey: Guid(09dfde16f0981414c80d7613093534c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/GlassBottle_02.fbx using Guid(09dfde16f0981414c80d7613093534c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '21248781585dd5b4da04315ed4c704fe') in 0.025590 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Hammer_02.fbx
-  artifactKey: Guid(b482acab90faa434f87ef36f512dbb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Hammer_02.fbx using Guid(b482acab90faa434f87ef36f512dbb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e4a50a468390ce507d1cb6baf5fb8c75') in 0.030952 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/GlassBottle_04.fbx
-  artifactKey: Guid(0e54a2bf963477c478b28b86afcf2519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/GlassBottle_04.fbx using Guid(0e54a2bf963477c478b28b86afcf2519) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3aad60b9d98c33c620cee752bfe48cf5') in 0.027782 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Fur.fbx
-  artifactKey: Guid(e3ab8356f96140f47abd0cd5bb3496b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Fur.fbx using Guid(e3ab8356f96140f47abd0cd5bb3496b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '50e31fe6cdcc5ffc057008b97487f477') in 0.029479 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/FoldedBed.fbx
-  artifactKey: Guid(ca85d1a28233f7f4ba15d82a250cd9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/FoldedBed.fbx using Guid(ca85d1a28233f7f4ba15d82a250cd9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4e5553a7030b6e6ff1cc391510de0072') in 0.030653 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.254649 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Key_01.fbx
-  artifactKey: Guid(beebb672db2fa0e4cacc2ddf9f81dde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Key_01.fbx using Guid(beebb672db2fa0e4cacc2ddf9f81dde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '82ce6e68d8bb00fc6dfbe1411761b612') in 0.025514 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Knife_04.fbx
-  artifactKey: Guid(a40d08b7bb3f9c9478271371c5b734c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Knife_04.fbx using Guid(a40d08b7bb3f9c9478271371c5b734c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '05f2ed8f4934099e2eb2843fcf3972f4') in 0.032117 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Leather.fbx
-  artifactKey: Guid(a5c53ac533a4fd74b81ad7eb620f26b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Leather.fbx using Guid(a5c53ac533a4fd74b81ad7eb620f26b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9af2765ade0dfc083432c6a9b815f5a8') in 0.027464 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Knife_02.fbx
-  artifactKey: Guid(33bec2b5133700f4cb0e534b86bc3faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Knife_02.fbx using Guid(33bec2b5133700f4cb0e534b86bc3faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4e13fdcb343110b873daf8bd7be2b89c') in 0.028694 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Knife_01.fbx
-  artifactKey: Guid(205b2ac17ac08cf4da45e60e7db053c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Knife_01.fbx using Guid(205b2ac17ac08cf4da45e60e7db053c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2b01c572690fe66fcc62502188f69bed') in 0.030308 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Knife_03.fbx
-  artifactKey: Guid(cfbfe0a848fd2b647bda6994244a7181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Knife_03.fbx using Guid(cfbfe0a848fd2b647bda6994244a7181) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '503021284ee2b4ad38a2ba7da6e5854f') in 0.041305 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.812329 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/ClimbingStick_01.prefab
-  artifactKey: Guid(ea2f6181cb922bd408ed43bfda242ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/ClimbingStick_01.prefab using Guid(ea2f6181cb922bd408ed43bfda242ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd65fb9090fef7b13ac5680d7596d9ae7') in 0.021883 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/GlassBottle_01.prefab
-  artifactKey: Guid(9b5dc512ec347e34eaaae1f9cf497537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/GlassBottle_01.prefab using Guid(9b5dc512ec347e34eaaae1f9cf497537) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b40f662f86aaaa9b50672da254a35d91') in 0.024111 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/ClimbingStick_02.prefab
-  artifactKey: Guid(0d70851a893b84a449eb97e2c4da4ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/ClimbingStick_02.prefab using Guid(0d70851a893b84a449eb97e2c4da4ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '37b41d92ca9920883160af4685a4912f') in 0.025195 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Kettle.prefab
-  artifactKey: Guid(3271ca4cef459314b9ace2ef6960cd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Kettle.prefab using Guid(3271ca4cef459314b9ace2ef6960cd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f7f3885965725ec207d433f4658f5a77') in 0.024487 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Flare.prefab
-  artifactKey: Guid(97e8a7007e5bea6429166de37e6befa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Flare.prefab using Guid(97e8a7007e5bea6429166de37e6befa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '787810232e886dc57d5f080a97eab83f') in 0.023519 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Knife_05.prefab
-  artifactKey: Guid(59e50f64e877bb046abee47059c573ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Knife_05.prefab using Guid(59e50f64e877bb046abee47059c573ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '60c7bd85f313248b90cace58ec67859b') in 0.026686 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/FoodCooler.prefab
-  artifactKey: Guid(027a26145882fb942b57ee4e9549a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/FoodCooler.prefab using Guid(027a26145882fb942b57ee4e9549a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3c1d3d56166b7a5a9a1d5f2f544f357e') in 0.025131 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Key_02.prefab
-  artifactKey: Guid(39c35d89c4c1aa344842332ccda04c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Key_02.prefab using Guid(39c35d89c4c1aa344842332ccda04c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b9fab763c430d57994dfddf0ecf2f706') in 0.025090 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Compass.prefab
-  artifactKey: Guid(1536304c8c239364a8883b2a775f0419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Compass.prefab using Guid(1536304c8c239364a8883b2a775f0419) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f5c232dcb6378866843b13560460f7d2') in 0.024806 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/FlareGun.prefab
-  artifactKey: Guid(421626e2da5a32a46983faa1ab5a1e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/FlareGun.prefab using Guid(421626e2da5a32a46983faa1ab5a1e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1c67c13dc799edcddbf8cef4d77a3d9f') in 0.024442 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Coin_03.prefab
-  artifactKey: Guid(29b43586dc4121e4a826c74ff57a8a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Coin_03.prefab using Guid(29b43586dc4121e4a826c74ff57a8a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a5138ebd42a45065fd83f1d8775c55fc') in 0.023724 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/GlassBottle_04.prefab
-  artifactKey: Guid(7a4acc0cd2a6a3049adf0484e05d64e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/GlassBottle_04.prefab using Guid(7a4acc0cd2a6a3049adf0484e05d64e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9076051d37e322a1fa97249116b943f0') in 0.024442 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/LeatherPouch.prefab
-  artifactKey: Guid(8086eb5f7c6107541937dd0cae6461d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/LeatherPouch.prefab using Guid(8086eb5f7c6107541937dd0cae6461d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e41104fdc5133408ee89a9a4e29a76d7') in 0.025651 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Knife_04.prefab
-  artifactKey: Guid(ec9a026d8c5b2b74a89a796c102445b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Knife_04.prefab using Guid(ec9a026d8c5b2b74a89a796c102445b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f50b9ce77235c1e1226d1eb098486b22') in 0.028678 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Coffin.prefab
-  artifactKey: Guid(d72ff3444ba4fba4ab92b054081de5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Coffin.prefab using Guid(d72ff3444ba4fba4ab92b054081de5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '432e065eda86266d29fd8ae6b7c8e681') in 0.026290 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Flashlight_02.prefab
-  artifactKey: Guid(b7ed1131d01aa9544902f2f6211b9651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Flashlight_02.prefab using Guid(b7ed1131d01aa9544902f2f6211b9651) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'cebde73491948ff09ab85eb27d19e7dc') in 0.031540 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Cup.prefab
-  artifactKey: Guid(1596024f73146204a852ff0000f778c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Cup.prefab using Guid(1596024f73146204a852ff0000f778c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '56f587c9e242588d0f76327ffea61448') in 0.025324 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Dynamite_01.prefab
-  artifactKey: Guid(31e782d501af3e542badca6f3a04eeca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Dynamite_01.prefab using Guid(31e782d501af3e542badca6f3a04eeca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8b466e72c157c3d01cd516f19d5ba055') in 0.025369 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/GlassBottle_02.prefab
-  artifactKey: Guid(7d6ae6f77791bd74ba0a45936b77d384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/GlassBottle_02.prefab using Guid(7d6ae6f77791bd74ba0a45936b77d384) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ecd6d51fc93f3f1fbab102f7de037de7') in 0.025331 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Lighter_02.prefab
-  artifactKey: Guid(f13d57e310fa31641a9c81974138ac55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Lighter_02.prefab using Guid(f13d57e310fa31641a9c81974138ac55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7c066ba65f72ec4bd71dbfaa3739f490') in 0.024401 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/GlassBottle_05.prefab
-  artifactKey: Guid(2586bd2aaf6e4344785fd6e0f7f214bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/GlassBottle_05.prefab using Guid(2586bd2aaf6e4344785fd6e0f7f214bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'af5a4ea93cc84d28efdfa68c5b0435b7') in 0.026022 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 1.134138 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Arrow_02.prefab
-  artifactKey: Guid(011adc0656acc034db0deeac40348f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Arrow_02.prefab using Guid(011adc0656acc034db0deeac40348f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0e08546eb20b264a5130139fc93549a0') in 0.029394 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/CannedFood_01.prefab
-  artifactKey: Guid(75dcd397f18ec974abb407f6a8a10047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/CannedFood_01.prefab using Guid(75dcd397f18ec974abb407f6a8a10047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a661e7e7d66519a7f928680eb3120af8') in 0.027873 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/BagBed_02.prefab
-  artifactKey: Guid(30af62b471bb24c41b0b6e654eaf067f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/BagBed_02.prefab using Guid(30af62b471bb24c41b0b6e654eaf067f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0ae22443641f7d25df3272120ed2ac78') in 0.027299 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Berry_02.prefab
-  artifactKey: Guid(677feba920018274a9c5e7a4764d570f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Berry_02.prefab using Guid(677feba920018274a9c5e7a4764d570f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '62ff74dbb436099fbb085bb44c41c340') in 0.026436 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Binoculars.prefab
-  artifactKey: Guid(3ea688b7230892b48adb20d8631ea063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Binoculars.prefab using Guid(3ea688b7230892b48adb20d8631ea063) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'bc5fc54f0b4f5e5e9470f6ec92f9db7b') in 0.028575 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Battery_01.prefab
-  artifactKey: Guid(ed338126b14090f43a671b4ce8089579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Battery_01.prefab using Guid(ed338126b14090f43a671b4ce8089579) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'da0d019fb1e3c2811b27813af299defb') in 0.027827 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Bow_02.prefab
-  artifactKey: Guid(947e0e110b5dd104285498151eed9b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Bow_02.prefab using Guid(947e0e110b5dd104285498151eed9b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd77adea2b2d8e34c34ce3087968d303a') in 0.032725 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/CannedFood_05.prefab
-  artifactKey: Guid(1fa532dad6b58a140bede6b19b45489e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/CannedFood_05.prefab using Guid(1fa532dad6b58a140bede6b19b45489e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e9749c988cd4dbe88999992a95af511e') in 0.029843 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Berry_01.prefab
-  artifactKey: Guid(89c71a5e66dfc374faf32a62f4be2b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Berry_01.prefab using Guid(89c71a5e66dfc374faf32a62f4be2b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '404f70d4f38541f410b189f6d8f6141a') in 0.029396 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/CannedFood_03.prefab
-  artifactKey: Guid(ecefc89774807a047920150618c4f5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/CannedFood_03.prefab using Guid(ecefc89774807a047920150618c4f5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a4761397582b6351fda3c8962ed0707b') in 0.029113 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 1.329047 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Map_02.fbx
-  artifactKey: Guid(d9dfbed0e0f4dea4ca563f7fa88c94d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Map_02.fbx using Guid(d9dfbed0e0f4dea4ca563f7fa88c94d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'caf87e291dd72a78f00f855ba0e0ddae') in 0.033395 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Midicine_02.fbx
-  artifactKey: Guid(4c6fc99a50b0d5b4fabe5c3c7c224a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Midicine_02.fbx using Guid(4c6fc99a50b0d5b4fabe5c3c7c224a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e97d16e15dfee3161cc806c32819b5ef') in 0.028759 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Mushroom_05.fbx
-  artifactKey: Guid(8687dd98564296846952ed3eb0e3d785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Mushroom_05.fbx using Guid(8687dd98564296846952ed3eb0e3d785) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'afb60492f24d9a07edbe55d78955e815') in 0.037110 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Mushroom_01.fbx
-  artifactKey: Guid(e80924fa84d3232479d1b7ab0cd1cce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Mushroom_01.fbx using Guid(e80924fa84d3232479d1b7ab0cd1cce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'de5d10f558bcbaa7f580d500b8d57ee0') in 0.035514 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Paddle_01.fbx
-  artifactKey: Guid(73792067e5da5df4eb4f0edac3ff27ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Paddle_01.fbx using Guid(73792067e5da5df4eb4f0edac3ff27ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1c44fdd08e06ab44bf783219f0f2432d') in 0.053563 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Pickaxe.fbx
-  artifactKey: Guid(975814fbe7cc1234d81c75a7ba05409b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Pickaxe.fbx using Guid(975814fbe7cc1234d81c75a7ba05409b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '91fac36fed9a8317377510a6c1dfb728') in 0.044684 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Midicine_01.fbx
-  artifactKey: Guid(04dc573e0ee7d194fab141e31840c075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Midicine_01.fbx using Guid(04dc573e0ee7d194fab141e31840c075) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0edb1596d345d02f1795f60ded7f8da2') in 0.052771 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/MidKit_01.fbx
-  artifactKey: Guid(b56f9b758a75ab2448bbebefc0dc33cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/MidKit_01.fbx using Guid(b56f9b758a75ab2448bbebefc0dc33cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9bd77d839a205f245c9ed8bd7e2f2bf0') in 0.028881 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Needle.fbx
-  artifactKey: Guid(db67a9e40814c1c488bbaa952336adb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Needle.fbx using Guid(db67a9e40814c1c488bbaa952336adb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ff294ce4045db75f120349e428cb51d6') in 0.030738 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.357102 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Rock_03.fbx
-  artifactKey: Guid(0cd7a22509973b3428bf8c07a3ea6e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Rock_03.fbx using Guid(0cd7a22509973b3428bf8c07a3ea6e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'fcb2c432298de88584365d7fb95482ce') in 0.036972 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Screwdriver_03.fbx
-  artifactKey: Guid(df13d368f780d344689a3ccc8ba4a0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Screwdriver_03.fbx using Guid(df13d368f780d344689a3ccc8ba4a0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7ef00598f6b2c1a6df2937dff5d885b6') in 0.036276 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Shotgun.fbx
-  artifactKey: Guid(1dff574384e6cc44eb4334198ae6bbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Shotgun.fbx using Guid(1dff574384e6cc44eb4334198ae6bbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '03007178cede546cc482d861488da4bd') in 0.032243 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Spear_02.fbx
-  artifactKey: Guid(dec4e046b228075438d064e16a7ddb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Spear_02.fbx using Guid(dec4e046b228075438d064e16a7ddb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2e976d4879b607db4e770de2709c64b8') in 0.031091 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Tape_01.fbx
-  artifactKey: Guid(41c281911bec5694bb1689edd08bc8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Tape_01.fbx using Guid(41c281911bec5694bb1689edd08bc8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'edbfcc127b3d55b75d23a779a3711a6f') in 0.033067 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Spear_01.fbx
-  artifactKey: Guid(6bc9457ac9130e64bb5dc314743f39a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Spear_01.fbx using Guid(6bc9457ac9130e64bb5dc314743f39a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a4d25ea653d0ce466ba6402eed750639') in 0.031302 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.538516 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Tent_03.fbx
-  artifactKey: Guid(6f1ba13067cf3d544b2ef1b4b2082b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Tent_03.fbx using Guid(6f1ba13067cf3d544b2ef1b4b2082b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e015785d7e2120c1da0041e8630e4e9c') in 0.042069 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/WoodLog_03.fbx
-  artifactKey: Guid(2914dec5667cb0f4faefca722d643d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/WoodLog_03.fbx using Guid(2914dec5667cb0f4faefca722d643d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '61b864ce61e638e36528c3d6a57b65a6') in 0.035749 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.002012 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/WoodLog_04.fbx
-  artifactKey: Guid(bcfa17371bf775c4a8c608215b4fedb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/WoodLog_04.fbx using Guid(bcfa17371bf775c4a8c608215b4fedb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1ca4cc5d4459bb83a102d7fbcdce3c61') in 0.036259 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Wrench_02.fbx
-  artifactKey: Guid(fa36eae10d0c8154fbf7582a7808c683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Models/Wrench_02.fbx using Guid(fa36eae10d0c8154fbf7582a7808c683) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '491c33b9d642e3dcce65b2dc6e4825a9') in 0.036900 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 0.769975 seconds.
+  path: Assets/Prefab/Player.prefab
+  artifactKey: Guid(630f4d6c2e87c774d9994100ac258afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Player.prefab using Guid(630f4d6c2e87c774d9994100ac258afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2d78748d0b30a112a5ad6704d01509ac') in 0.081298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 206
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.337 seconds
+Refreshing native plugins compatible for Editor in 2.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.665 seconds
+Domain Reload Profiling: 1000ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (157ms)
+		LoadAssemblies (212ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (666ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (288ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (217ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3207 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (31.6 KB). Loaded Objects now: 3734.
+Memory consumption went from 141.3 MB to 141.2 MB.
+Total: 2.441100 ms (FindLiveObjects: 0.182400 ms CreateObjectMapping: 0.070400 ms MarkObjects: 2.139500 ms  DeleteObjects: 0.048100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.341 seconds
+Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.654 seconds
+Domain Reload Profiling: 992ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (213ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (654ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (284ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (213ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (31.7 KB). Loaded Objects now: 3737.
+Memory consumption went from 141.5 MB to 141.5 MB.
+Total: 2.206200 ms (FindLiveObjects: 0.163500 ms CreateObjectMapping: 0.057300 ms MarkObjects: 1.928000 ms  DeleteObjects: 0.056100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 824.751983 seconds.
+  path: Assets/Scripts Player/ThanhMau.cs
+  artifactKey: Guid(71058b89578650341a2a085e734a9012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts Player/ThanhMau.cs using Guid(71058b89578650341a2a085e734a9012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'daf08835c2b46bdb968cc0f69884603f') in 0.007098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.413 seconds
+Refreshing native plugins compatible for Editor in 8.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.754 seconds
+Domain Reload Profiling: 1163ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (193ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (754ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (332ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (31.5 KB). Loaded Objects now: 3741.
+Memory consumption went from 141.3 MB to 141.2 MB.
+Total: 2.251400 ms (FindLiveObjects: 0.177300 ms CreateObjectMapping: 0.069300 ms MarkObjects: 1.956800 ms  DeleteObjects: 0.047200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5.536767 seconds.
+  path: Assets/Scripts Player/ThanhMau.cs
+  artifactKey: Guid(71058b89578650341a2a085e734a9012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts Player/ThanhMau.cs using Guid(71058b89578650341a2a085e734a9012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dce3b3aebb24e2ee72966855b3118346') in 0.003700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.517 seconds
+Refreshing native plugins compatible for Editor in 2.63 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.718 seconds
+Domain Reload Profiling: 1233ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (235ms)
+		LoadAssemblies (319ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (719ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (304ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (223ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (31.7 KB). Loaded Objects now: 3744.
+Memory consumption went from 141.3 MB to 141.2 MB.
+Total: 3.925600 ms (FindLiveObjects: 0.292600 ms CreateObjectMapping: 0.113300 ms MarkObjects: 3.458400 ms  DeleteObjects: 0.060100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 222.385755 seconds.
+  path: Assets/Scripts Player/ThanhMau.cs
+  artifactKey: Guid(71058b89578650341a2a085e734a9012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts Player/ThanhMau.cs using Guid(71058b89578650341a2a085e734a9012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd92b64a413580b50888919dc6d36c04f') in 0.003963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.407 seconds
+Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.110 seconds
+Domain Reload Profiling: 1516ms
+	BeginReloadAssembly (155ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (269ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1111ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (303ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (223ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (31.6 KB). Loaded Objects now: 3747.
+Memory consumption went from 141.3 MB to 141.3 MB.
+Total: 4.032300 ms (FindLiveObjects: 0.198100 ms CreateObjectMapping: 0.084100 ms MarkObjects: 3.665200 ms  DeleteObjects: 0.083700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.540 seconds
+Refreshing native plugins compatible for Editor in 4.61 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.302 seconds
+Domain Reload Profiling: 1839ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (277ms)
+		LoadAssemblies (350ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1303ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (551ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (400ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 5.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3209 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (31.7 KB). Loaded Objects now: 3750.
+Memory consumption went from 141.5 MB to 141.5 MB.
+Total: 4.059900 ms (FindLiveObjects: 0.284000 ms CreateObjectMapping: 0.107300 ms MarkObjects: 3.586100 ms  DeleteObjects: 0.081000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.754 seconds
+Refreshing native plugins compatible for Editor in 5.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.404 seconds
+Domain Reload Profiling: 2154ms
+	BeginReloadAssembly (290ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (323ms)
+		LoadAssemblies (467ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1405ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (584ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (431ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 4.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3209 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (31.7 KB). Loaded Objects now: 3753.
+Memory consumption went from 141.5 MB to 141.5 MB.
+Total: 3.945900 ms (FindLiveObjects: 0.241700 ms CreateObjectMapping: 0.095100 ms MarkObjects: 3.540500 ms  DeleteObjects: 0.067100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.324 seconds
+Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.634 seconds
+Domain Reload Profiling: 956ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (147ms)
+		LoadAssemblies (203ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (634ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (274ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (203ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3209 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (31.6 KB). Loaded Objects now: 3756.
+Memory consumption went from 141.5 MB to 141.5 MB.
+Total: 2.367700 ms (FindLiveObjects: 0.248700 ms CreateObjectMapping: 0.060200 ms MarkObjects: 2.002400 ms  DeleteObjects: 0.054900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

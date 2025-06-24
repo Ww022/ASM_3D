@@ -377,6 +377,11 @@
 "Assets/Script Animal/PlayerMovement.cs"
 "Assets/Scripts Player/Arrow.cs"
 "Assets/Scripts Player/BowShooter.cs"
+"Assets/Scripts Player/LookAtCamera.cs"
+"Assets/Scripts Player/MiniMap.cs"
+"Assets/Scripts Player/PlayerHealth.cs"
+"Assets/Scripts Player/PlayerHealthUI.cs"
+"Assets/Scripts Player/ThanhMau.cs"
 -langversion:9.0
 /deterministic
 /optimize+
