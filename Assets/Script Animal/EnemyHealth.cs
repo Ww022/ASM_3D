@@ -1,31 +1,29 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyHealth : MonoBehaviour
 {
-    public float maxHealth = 100;
-    public float currentHealth;
-    public PlayerHealth playerHealth;
-
-    void Start()
+    private int HP = 100;
+    public Slider HPbar;
+    private void Update()
     {
-        currentHealth = maxHealth;
+        HPbar.value = HP;
     }
-
     public void TakeDamage(float damage)
     {
-        currentHealth -= damage;
+        HP -= (int)damage;
+        Debug.Log($"{gameObject.name} b? trúng tên, còn {HP} máu");
 
-        if (currentHealth <= 0f)
+        if (HP <= 0)
         {
-            Destroy(gameObject);
+            Die();
         }
     }
 
-    private void OnCollisionEnter(Collision other)
+
+    void Die()
     {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            playerHealth.TakeDamage(10);
-        }
+        Debug.Log($"{gameObject.name} ?ã ch?t");
+        Destroy(gameObject); // Xoá ??i t??ng sau khi ch?t
     }
 }
