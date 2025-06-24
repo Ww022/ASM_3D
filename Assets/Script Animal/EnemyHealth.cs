@@ -1,19 +1,25 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyHealth : MonoBehaviour
 {
-    public float health = 100f;
-
+    private int HP = 100;
+    public Slider HPbar;
+    private void Update()
+    {
+        HPbar.value = HP;
+    }
     public void TakeDamage(float damage)
     {
-        health -= damage;
-        Debug.Log($"{gameObject.name} b? trúng tên, còn {health} máu");
+        HP -= (int)damage;
+        Debug.Log($"{gameObject.name} b? trúng tên, còn {HP} máu");
 
-        if (health <= 0)
+        if (HP <= 0)
         {
             Die();
         }
     }
+
 
     void Die()
     {

@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "E:\\ASM_3D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65DB33C9-E3FC-1E80-71EF-9815F879A24C}|Assembly-CSharp.csproj|e:\\asm_3d\\assets\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65DB33C9-E3FC-1E80-71EF-9815F879A24C}|Assembly-CSharp.csproj|e:\\asm_3d\\assets\\script animal\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65DB33C9-E3FC-1E80-71EF-9815F879A24C}|Assembly-CSharp.csproj|solutionrelative:assets\\script animal\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65DB33C9-E3FC-1E80-71EF-9815F879A24C}|Assembly-CSharp.csproj|E:\\ASM_3D\\assets\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65DB33C9-E3FC-1E80-71EF-9815F879A24C}|Assembly-CSharp.csproj|solutionrelative:assets\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GameOver.cs",
               "DocumentMoniker": "E:\\ASM_3D\\Assets\\GameOver.cs",
               "RelativeDocumentMoniker": "Assets\\GameOver.cs",
@@ -28,6 +32,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-17T14:18:56.41Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnemyHealth.cs",
+              "DocumentMoniker": "E:\\ASM_3D\\Assets\\Script Animal\\EnemyHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Script Animal\\EnemyHealth.cs",
+              "ToolTip": "E:\\ASM_3D\\Assets\\Script Animal\\EnemyHealth.cs",
+              "RelativeToolTip": "Assets\\Script Animal\\EnemyHealth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T16:27:11.373Z",
               "EditorCaption": ""
             }
           ]

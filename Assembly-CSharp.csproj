@@ -68,11 +68,14 @@
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonMotor.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonInput.cs" />
     <Compile Include="Assets\Animal\Animals_FREE\Scripts\CreatureMover.cs" />
+    <Compile Include="Assets\lookatplayer.cs" />
     <Compile Include="Assets\Animal\Animals_FREE\Scripts\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\MyEnemy.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Camera\vThirdPersonCamera.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vPickupItem.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonAnimator.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonController.cs" />
+    <Compile Include="Assets\HPbar.cs" />
     <Compile Include="Assets\Scripts Player\Arrow.cs" />
     <Compile Include="Assets\Animal\Animals_FREE\Scripts\MovePlayerInput.cs" />
     <Compile Include="Assets\GameOver.cs" />
