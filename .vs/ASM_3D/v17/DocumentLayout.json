@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\ASM_3D\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{65DB33C9-E3FC-1E80-71EF-9815F879A24C}|Assembly-CSharp.csproj|e:\\asm_3d\\assets\\lookatplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65DB33C9-E3FC-1E80-71EF-9815F879A24C}|Assembly-CSharp.csproj|solutionrelative:assets\\lookatplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{65DB33C9-E3FC-1E80-71EF-9815F879A24C}|Assembly-CSharp.csproj|e:\\asm_3d\\assets\\script animal\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65DB33C9-E3FC-1E80-71EF-9815F879A24C}|Assembly-CSharp.csproj|solutionrelative:assets\\script animal\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,7 +26,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GameOver.cs",
               "DocumentMoniker": "E:\\ASM_3D\\Assets\\GameOver.cs",
               "RelativeDocumentMoniker": "Assets\\GameOver.cs",
@@ -31,12 +35,24 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-17T14:18:56.41Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "lookatplayer.cs",
+              "DocumentMoniker": "E:\\ASM_3D\\Assets\\lookatplayer.cs",
+              "RelativeDocumentMoniker": "Assets\\lookatplayer.cs",
+              "ToolTip": "E:\\ASM_3D\\Assets\\lookatplayer.cs",
+              "RelativeToolTip": "Assets\\lookatplayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T16:31:15.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "EnemyHealth.cs",
               "DocumentMoniker": "E:\\ASM_3D\\Assets\\Script Animal\\EnemyHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Script Animal\\EnemyHealth.cs",

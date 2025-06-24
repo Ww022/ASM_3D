@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "E:\\ASM_3D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65DB33C9-E3FC-1E80-71EF-9815F879A24C}|Assembly-CSharp.csproj|E:\\ASM_3D\\assets\\script animal\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65DB33C9-E3FC-1E80-71EF-9815F879A24C}|Assembly-CSharp.csproj|e:\\asm_3d\\assets\\script animal\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65DB33C9-E3FC-1E80-71EF-9815F879A24C}|Assembly-CSharp.csproj|solutionrelative:assets\\script animal\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65DB33C9-E3FC-1E80-71EF-9815F879A24C}|Assembly-CSharp.csproj|e:\\asm_3d\\assets\\invector-3rdpersoncontroller_lite\\scripts\\charactercontroller\\vthirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65DB33C9-E3FC-1E80-71EF-9815F879A24C}|Assembly-CSharp.csproj|solutionrelative:assets\\invector-3rdpersoncontroller_lite\\scripts\\charactercontroller\\vthirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65DB33C9-E3FC-1E80-71EF-9815F879A24C}|Assembly-CSharp.csproj|E:\\ASM_3D\\assets\\invector-3rdpersoncontroller_lite\\scripts\\charactercontroller\\vthirdpersoninput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65DB33C9-E3FC-1E80-71EF-9815F879A24C}|Assembly-CSharp.csproj|solutionrelative:assets\\invector-3rdpersoncontroller_lite\\scripts\\charactercontroller\\vthirdpersoninput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65DB33C9-E3FC-1E80-71EF-9815F879A24C}|Assembly-CSharp.csproj|E:\\ASM_3D\\assets\\lookatplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65DB33C9-E3FC-1E80-71EF-9815F879A24C}|Assembly-CSharp.csproj|solutionrelative:assets\\lookatplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65DB33C9-E3FC-1E80-71EF-9815F879A24C}|Assembly-CSharp.csproj|E:\\ASM_3D\\assets\\myenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65DB33C9-E3FC-1E80-71EF-9815F879A24C}|Assembly-CSharp.csproj|solutionrelative:assets\\myenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65DB33C9-E3FC-1E80-71EF-9815F879A24C}|Assembly-CSharp.csproj|E:\\ASM_3D\\assets\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "GameOver.cs",
               "DocumentMoniker": "E:\\ASM_3D\\Assets\\GameOver.cs",
               "RelativeDocumentMoniker": "Assets\\GameOver.cs",
@@ -47,44 +31,8 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-17T14:18:56.41Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "vThirdPersonController.cs",
-              "DocumentMoniker": "E:\\ASM_3D\\Assets\\Invector-3rdPersonController_LITE\\Scripts\\CharacterController\\vThirdPersonController.cs",
-              "RelativeDocumentMoniker": "Assets\\Invector-3rdPersonController_LITE\\Scripts\\CharacterController\\vThirdPersonController.cs",
-              "ToolTip": "E:\\ASM_3D\\Assets\\Invector-3rdPersonController_LITE\\Scripts\\CharacterController\\vThirdPersonController.cs",
-              "RelativeToolTip": "Assets\\Invector-3rdPersonController_LITE\\Scripts\\CharacterController\\vThirdPersonController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T16:02:07.448Z",
+              "IsPinned": true,
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "vThirdPersonInput.cs",
-              "DocumentMoniker": "E:\\ASM_3D\\Assets\\Invector-3rdPersonController_LITE\\Scripts\\CharacterController\\vThirdPersonInput.cs",
-              "RelativeDocumentMoniker": "Assets\\Invector-3rdPersonController_LITE\\Scripts\\CharacterController\\vThirdPersonInput.cs",
-              "ToolTip": "E:\\ASM_3D\\Assets\\Invector-3rdPersonController_LITE\\Scripts\\CharacterController\\vThirdPersonInput.cs",
-              "RelativeToolTip": "Assets\\Invector-3rdPersonController_LITE\\Scripts\\CharacterController\\vThirdPersonInput.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T16:01:55.431Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "lookatplayer.cs",
-              "DocumentMoniker": "E:\\ASM_3D\\Assets\\lookatplayer.cs",
-              "RelativeDocumentMoniker": "Assets\\lookatplayer.cs",
-              "ToolTip": "E:\\ASM_3D\\Assets\\lookatplayer.cs",
-              "RelativeToolTip": "Assets\\lookatplayer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T15:15:57.113Z"
             },
             {
               "$type": "Document",
@@ -94,22 +42,10 @@
               "RelativeDocumentMoniker": "Assets\\Script Animal\\EnemyHealth.cs",
               "ToolTip": "E:\\ASM_3D\\Assets\\Script Animal\\EnemyHealth.cs",
               "RelativeToolTip": "Assets\\Script Animal\\EnemyHealth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T15:03:56.124Z",
+              "WhenOpened": "2025-06-24T16:27:11.373Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MyEnemy.cs",
-              "DocumentMoniker": "E:\\ASM_3D\\Assets\\MyEnemy.cs",
-              "RelativeDocumentMoniker": "Assets\\MyEnemy.cs",
-              "ToolTip": "E:\\ASM_3D\\Assets\\MyEnemy.cs",
-              "RelativeToolTip": "Assets\\MyEnemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T13:24:01.856Z"
             }
           ]
         }
