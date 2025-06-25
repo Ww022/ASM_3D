@@ -373,6 +373,8 @@
 "Assets/Invector-3rdPersonController_LITE/Scripts/Generic/Utils/vPickupItem.cs"
 "Assets/lookatplayer.cs"
 "Assets/MainMenu.cs"
+"Assets/Menu.cs"
+"Assets/MusicMenu.cs"
 "Assets/MyEnemy.cs"
 "Assets/Script Animal/EnemyHealth.cs"
 "Assets/Script Animal/PlayerMovement.cs"
